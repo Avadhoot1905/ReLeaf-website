@@ -84,7 +84,7 @@ export default function UserInformation() {
         <div className="flex gap-2 pt-4">
           {isEditing ? (
             <>
-              <Button variant="outline" className="flex-1" onClick={() => setIsEditing(false)}>
+              <Button className="flex-1" onClick={() => setIsEditing(false)}>
                 CANCEL
               </Button>
               <Button className="flex-1 bg-emerald-800 hover:bg-emerald-900 text-white" onClick={handleSave}>
